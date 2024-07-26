@@ -1,0 +1,26 @@
+{
+    "34f684ce-e15f-4ddb-b5dd-fe222c16c744": {
+        "title": "World Of Warcraft",
+        "category": "MMORPG",
+        "maxLevel": "10",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/65/World_of_Warcraft.png",
+        "summary": "World of Warcraft (WoW) is a massively multiplayer online role-playing game (MMORPG) released in 2004 by Blizzard Entertainment. Set in the Warcraft fantasy universe, World of Warcraft takes place within the world of Azeroth, approximately four years after the events of the previous game in the series, Warcraft III: The Frozen Throne.",
+        "_id": "34f684ce-e15f-4ddb-b5dd-fe222c16c744"
+    },
+    "c8010250-f722-419e-904c-2c607d073fce": {
+        "title": "Mass Effect: Legendary Edition",
+        "category": "RPG",
+        "maxLevel": "10",
+        "imageUrl": "https://media.contentapi.ea.com/content/dam/masseffect/images/2020/10/me-featured-image-mele-keyart-logo.jpg.adapt.crop16x9.1023w.jpg",
+        "summary": "The game focuses on the protagonist, Commander Shepard, and their quest to stop the rogue Spectre Saren Arterius from leading an army of sentient machines, called the Geth, to conquer the galaxy.",
+        "_id": "c8010250-f722-419e-904c-2c607d073fce"
+    },
+    "60c77cd4-85c6-43b6-85ee-bacbc4eb4944": {
+        "title": "The Elder Scrolls: Skyrim",
+        "category": "RPG",
+        "maxLevel": "10",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/15/The_Elder_Scrolls_V_Skyrim_cover.png",
+        "summary": "The game is set 200 years after the events of Oblivion and takes place in Skyrim, the northernmost province of Tamriel, a continent on the planet Nirn. Its main story focuses on the player's character, the Dragonborn, on their quest to defeat Alduin the World-Eater, a dragon who is prophesied to destroy the world.",
+        "_id": "60c77cd4-85c6-43b6-85ee-bacbc4eb4944"
+    }
+}
