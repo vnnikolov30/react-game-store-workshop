@@ -1,5 +1,6 @@
 import * as gamesAPI from "../../api/gamesApi";
 import React, { useEffect, useState } from "react";
+import GameItemHome from "./game-item-home/GameItemHome";
 
 function Home() {
   const [games, setGames] = useState([]);
@@ -20,27 +21,11 @@ function Home() {
         <div id="home-page">
           <h1>Latest Games</h1>
           {/* Display div: with information about every game (if any) */}
-          <div className="game">
-            <div className="image-wrap">
-              <img src="./images/CoverFire.png" />
-            </div>
-            <h3>Cover Fire</h3>
-            <div className="rating">
-              <span>☆</span>
-              <span>☆</span>
-              <span>☆</span>
-              <span>☆</span>
-              <span>☆</span>
-            </div>
-            <div className="data-buttons">
-              <a href="#" className="btn details-btn">
-                Details
-              </a>
-            </div>
-          </div>
-          
-          {/* Display paragraph: If there is no games  */}
-          <p className="no-articles">No games yet</p>
+          {games.length > 0 ? (
+            games.slice(0, 3).reverse().map((game) => <GameItemHome key={game._id} {...game} />)
+          ) : (
+            <h3 className="no-articles">No games yet</h3>
+          )}
         </div>
       </section>
     </>

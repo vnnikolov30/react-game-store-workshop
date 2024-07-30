@@ -13,9 +13,11 @@ First REACT project following the instructions from my SoftUni course
 * ✅ Authorization
 * ✅  Custom Hooks and API's 
 * ✅  Error Handling and conditional error messages
+* ✅  Added logout functionality
+* ✅  Display all recent games in the catalogue on the home page (limited to three games, sorted by most recent)
+* ✅  Displaying the current username on  the navbar when logged in 
 
 # 🚧 TODO's  🚧
-* ☐ Add logout functionality
 * ☐ Comments
-* ☐ Display all recent games in the catalogue on the home page
-* ☐ Display username on navbar when logged in 
+* ☐ Fix rating star system for games
+* ☐ Add "Delete" and "Edit" functionality to game details
